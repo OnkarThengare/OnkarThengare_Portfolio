@@ -1,49 +1,96 @@
-# Personal Portfolio (Nova UI)
+# 👨‍💻 Onkar Thengare | Personal Portfolio
 
-A modern, high-performance personal portfolio built with **React**, **Tailwind CSS**, and **Vite**, replicating the clean aesthetic and glassmorphism styling of the Nova landing page.
+A personal portfolio website showcasing my projects, technical skills, education, and journey as a software developer.
 
----
+🌐 **Live Website:** [onkar-thengare-portfolio.vercel.app](https://onkar-thengare-portfolio.vercel.app/)
 
-## 🚀 Quick Start
+## 🚀 Features
 
-To run the portfolio locally:
+- Responsive design for desktop, tablet, and mobile devices
+- Personal introduction and professional profile
+- Technical skills and technologies
+- Projects with descriptions and details
+- Educational background
+- Resume access
+- Contact information
+- Clean and modern user interface
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, TypeScript
+- **Styling:** Tailwind CSS, CSS
+- **Build Tool:** Vite
+- **Icons:** Lucide React
+- **Version Control:** Git and GitHub
+- **Deployment:** Vercel
+
+## 📂 Project Structure
+
+```text
+OnkarThengare_Portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.tsx
+│   └── main.tsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.ts
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+```
+
+*Note: The project structure above is illustrative. Update it to match your actual files and folders.*
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run the project locally.
+
+**1. Clone the repository**
 
 ```bash
-# Start Vite development server
+git clone https://github.com/OnkarThengare/OnkarThengare_Portfolio.git
+```
+
+**2. Navigate to the project directory**
+
+```bash
+cd OnkarThengare_Portfolio
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
+
+```bash
 npm run dev
 ```
 
-Then open your browser at `http://localhost:3000` (or the port displayed in terminal).
+Open the local URL displayed in your terminal to view the website.
 
-To create a production build:
+## 🏗️ Build for Production
+
+To create an optimized production build, run:
 
 ```bash
 npm run build
 ```
 
----
+The generated production files will be available in the `dist/` directory.
 
-## 🛠️ How to Customize Your Content
+## 🌐 Deployment
 
-All data is decoupled into a single configuration file:
-👉 **[`src/data/portfolioData.js`](file:///c:/Users/onkar/OneDrive/Desktop/Portfolio/src/data/portfolioData.js)**
+This portfolio is deployed using **Vercel**.
 
-- **Personal Info & Bio**: Update `personal.name`, `personal.role`, `personal.bio`, and contact links.
-- **Projects**:
-  - Add or update project titles, descriptions, tags, and images.
-  - Your image `project-1.png` is placed in `public/project-1.png` and linked as the featured showcase project.
-  - Drop any new project images into the `public/` directory and reference them as `"/your-image.png"`.
-- **Tech Stack**:
-  - Pre-configured with **HTML**, **CSS**, **Tailwind CSS**, **React**, **Spring**, **JavaScript**, **Spring Boot**, **Hibernate**, **Git**, and **Postman**.
-- **Education**: Update degrees, universities, graduation years, and coursework.
+Visit the live website: [Onkar Thengare Portfolio](https://onkar-thengare-portfolio.vercel.app/)
 
 ---
 
-## ✨ Features Included
-
-- **One-Page Navigation**: Smooth scrolling navbar with active section detection for `#home`, `#about`, `#skills`, `#projects`, `#education`, and `#contact`.
-- **Animated Developer Avatar**: Interactive animated character illustration with floating tech badges (React, Spring Boot, Hibernate) instead of personal photo.
-- **Dark / Light Theme Toggle**: Seamless switch between dark mode (Nova dark purple/obsidian) and clean light mode.
-- **Project Detail Modal**: Interactive popup showing project overview, technical highlights, GitHub code, and live demo links.
-- **Frontend Contact Form**: Instant feedback state without requiring a backend server.
-- **Fully Responsive**: Mobile drawer navigation and responsive grid layouts.
+⭐ Thank you for visiting my portfolio repository!
