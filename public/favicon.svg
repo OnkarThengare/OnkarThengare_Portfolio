@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#00D2C4"/>
+    </linearGradient>
+  </defs>
+  <!-- Squircle with Purple-to-Cyan Gradient Border -->
+  <rect x="2" y="2" width="60" height="60" rx="18" fill="url(#logoGrad)"/>
+  <rect x="5.5" y="5.5" width="53" height="53" rx="15" fill="#0E0E16"/>
+  <!-- </> Violet Code Glyph matching Image 3 -->
+  <path d="M21 21 L11 32 L21 43" fill="none" stroke="#A78BFA" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="37" y1="16" x2="27" y2="48" stroke="#A78BFA" stroke-width="6.5" stroke-linecap="round"/>
+  <path d="M43 21 L53 32 L43 43" fill="none" stroke="#A78BFA" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
